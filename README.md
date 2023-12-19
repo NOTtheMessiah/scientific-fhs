@@ -17,11 +17,11 @@ programs.scientific-fhs = {
   enable = true;
   juliaVersions = [
     {
-      version = "julia_18";
+      version = "1.9.3";
       default = true;
     }
-    { version = "julia_17"; }
-    { version = "julia_16"; }
+    { version = "1.7.2"; }
+    { version = "1.6.7"; }
   ];
   enableNVIDIA = false;
 };
